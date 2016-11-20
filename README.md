@@ -1,5 +1,9 @@
 # string_entropy
 
+[![Build Status](https://travis-ci.org/anothermh/string_entropy.svg?branch=master)](https://travis-ci.org/anothermh/string_entropy)
+[![Code Climate](https://codeclimate.com/github/anothermh/string_entropy/badges/gpa.svg)](https://codeclimate.com/github/anothermh/string_entropy)
+[![Test Coverage](https://codeclimate.com/github/anothermh/string_entropy/badges/coverage.svg)](https://codeclimate.com/github/anothermh/string_entropy/coverage)
+
 Outputs the information entropy, Shannon entropy, and metric entropy of any given `ASCII_8BIT` string.
 
 More information on entropy:
