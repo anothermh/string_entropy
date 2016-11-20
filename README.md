@@ -36,7 +36,25 @@ With the `StringEntropy::Info` class:
 
 ```ruby
 string_entropy = StringEntropy.info("password")
-=> #<StringEntropy::Info:0x007fb864091590 @string="password", @count={"p"=>1.0, "a"=>1.0, "s"=>2.0, "w"=>1.0, "o"=>1.0, "r"=>1.0, "d"=>1.0}, @frequency={"p"=>0.125, "a"=>0.125, "s"=>0.25, "w"=>0.125, "o"=>0.125, "r"=>0.125, "d"=>0.125}, @information_entropy=52.55884486664758, @shannon_entropy=2.75, @metric_entropy=0.34375, @shannon_formulas=["H(X) = -[ ((0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.25 * Math.log2(0.25))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))) ]", "H(X) = -[ ((-0.375)+(-0.375)+(-0.5)+(-0.375)+(-0.375)+(-0.375)+(-0.375)) ]", "H(X) = -[ (-2.75) ]", "H(X) = 2.75"]>
+=> #<StringEntropy::Info:0x007fb864091590
+ @count={"p"=>1.0, "a"=>1.0, "s"=>2.0, "w"=>1.0, "o"=>1.0, "r"=>1.0, "d"=>1.0},
+ @frequency=
+  {"p"=>0.125,
+   "a"=>0.125,
+   "s"=>0.25,
+   "w"=>0.125,
+   "o"=>0.125,
+   "r"=>0.125,
+   "d"=>0.125},
+ @information_entropy=52.55884486664758,
+ @metric_entropy=0.34375,
+ @shannon_entropy=2.75,
+ @shannon_formulas=
+  ["H(X) = -[ ((0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.25 * Math.log2(0.25))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))+(0.125 * Math.log2(0.125))) ]",
+   "H(X) = -[ ((-0.375)+(-0.375)+(-0.5)+(-0.375)+(-0.375)+(-0.375)+(-0.375)) ]",
+   "H(X) = -[ (-2.75) ]",
+   "H(X) = 2.75"],
+ @string="password">
 
 # Original string
 string_entropy.string
